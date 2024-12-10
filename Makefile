@@ -1,14 +1,14 @@
 backup:
-	./ludusavi.exe backup
+	./ludusavi.exe backup --cloud-sync --force
 
 restore:
-	./ludusavi.exe restore
+	./ludusavi.exe restore --force
 
-link_rclone: 
+restore_cloud: 
+	./ludusavi.exe restore --cloud-sync --force
+
+link_rclone:
 	./rclone.exe
-
-upload_cloud: 
-	./ludusavi.exe cloud upload
 
 download_cloud: 
 	./ludusavi.exe cloud download
