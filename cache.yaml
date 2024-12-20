@@ -1,0 +1,26 @@
+---
+version:
+  - 0
+  - 27
+  - 0
+release:
+  checked: "2024-12-20T20:13:48.649083800Z"
+  latest: 0.27.0
+migrations:
+  adopted_cache: true
+  fixed_spanish_config: true
+  set_default_manifest_url_to_null: true
+manifests:
+  "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml":
+    etag: "W/\"c187dd8007bc86f5ac5ad8c486a2f51a91db4a7e66c7bd1348424adfd5c5daf1\""
+    checked: "2024-12-20T20:13:50.100767500Z"
+    updated: "2024-12-20T20:13:50.100767500Z"
+roots:
+  - store: microsoft
+    path: "C:/Program Files/WindowsApps"
+  - store: steam
+    path: "E:/Steam"
+backup:
+  recent_games: []
+restore:
+  recent_games: []

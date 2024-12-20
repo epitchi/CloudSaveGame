@@ -16,6 +16,9 @@ download_cloud:
 rclone_mount:
 	./rclone.exe mount --config ./conf.txt thinkmay:/bucket_name E:/temp
 
+ludusavi_sync:
+	./rclone.exe --fast-list --ignore-checksum --config ./conf2.txt sync -v  --stats=100ms E:/ludusavi thinkmay:temp/backup
+
 winfsp_install:
 	./winfsp-2.0.23075.msi /quiet  
 
