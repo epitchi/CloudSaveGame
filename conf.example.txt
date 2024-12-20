@@ -1,0 +1,8 @@
+[thinkmay]
+type = s3
+provider = Other
+access_key_id = key
+secret_access_key = key
+endpoint = https://gateway.storjshare.io
+acl = private
+bucket_acl = private
